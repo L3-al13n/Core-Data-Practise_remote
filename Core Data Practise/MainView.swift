@@ -18,6 +18,7 @@ struct MainView: View {
                     .imageScale(.large)
                     .foregroundColor(.accentColor)
                 Text("This is a test")
+                    .foregroundColor(.black)
             }
             
         }

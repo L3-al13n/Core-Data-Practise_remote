@@ -10,10 +10,16 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("This is a test")
+            ZStack {
+                
+                Color.yellow.ignoresSafeArea(.all)
+                
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("This is a test")
+            }
+            
         }
         .padding()
     }
